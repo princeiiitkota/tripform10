@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to travel form</title>
+    <link rel="stylesheet" href= "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <img  class="bg" src="collage.jpg" alt="iiit KOTA">
+    <div class="container">
+     
+         <h1>WELCOME TO IIIT KOTA SIMLA TRIP FORM</h1>
+         <p>enter the detail to confirm your participation in the trip</p>
+         <p class="submitmsg">thanks for submitting your form . we happy to see you joining us for the USA trip</p>
+         <form action="form.php" method="post">
+         <input type="text" name ="name" clsaa="name" placeholder="enter your name">
+         <input type="text" name="age" id="age" placeholder="enter your age">
+         <input type="text" name="email" id="email" placeholder="enter your email">
+         <input type="phone" name="phone" id="phone" placeholder="enter your phone number">
+         <input type="text" name="batch" id="batch" placeholder="enter youer batch name">
+         <textarea name="desc" id="desc"  placeholder="enter any other information here"></textarea>
+         <button class="btn"> submit</button>
+         
+         
+         </form>
+</div>
+    <script src="form.js">
+        
+    </script>
+    <!--INSERT INTO `trip` (`SNO`, `NAME`, `AGE`, `EMAIL`, `PHONE NUMBER`, `BATCH NAME`, `OTHER INFO`, `DATA TIME`) VALUES ('1', 'test name', '22', 'pspkssm7@gmail.com', '2334343433', 'a1', 'i am prince kumar', current_timestamp());-->
+</body>
+</html>
